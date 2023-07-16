@@ -1,0 +1,82 @@
+.coder-box {
+    border: 1px solid brown;
+    display: flex;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+    height: 100vh;
+    background-image: url("pexels-samuel-walker-92340.jpg");
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 400px;
+    min-width: 400px;
+    background-color: pink;
+    box-shadow: 15px 15px 10px 1px brown;
+    border-radius: 10%;
+    line-height: 50px;
+}    
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.form h2{
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    text-align: center;
+}
+
+.form h2:hover{
+    color: hotpink;
+}
+
+.input-div {
+    padding: 10px;
+    width: 125%;
+    margin: 20px;
+    border: 3px solid brown;
+    border-radius: 20px;
+}
+
+#submit {
+   
+    padding: 10px;
+    width: 60%;
+    margin-top: 10px;
+    background-color: hotpink;
+    color: brown;
+    font-weight: bold;
+    border: brown;
+    outline:auto;
+    border-radius: 20px;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+.form a {
+    font-size: 12px;
+    color: hotpink;
+    font-weight: bold;
+}
+
+.form a:hover{
+    color: white;
+}
